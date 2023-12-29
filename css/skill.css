@@ -1,0 +1,44 @@
+.skill-container {
+  align-items: stretch;
+  margin: 2rem auto 2rem auto;
+}
+
+.skill-img {
+  margin: 0.5rem auto 0.5rem auto;
+  object-fit: cover;
+  width: fit-content;
+  height: 7.5vh;
+}
+
+.skill-text {
+  color: #bce9ff;
+  text-align: justify;
+  transition: letter-spacing 0.5s ease;
+}
+
+.skill-text:hover {
+  letter-spacing: 0.5rem;
+  text-shadow: #a6b5cc 0 0 10px;
+  color: #a5ffd6;
+}
+
+.carousel-item > img {
+  object-fit: cover;
+  height: 80vh;
+  border-radius: 20px;
+}
+
+.carousel-item > img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+footer {
+  background-color: #1a1d20;
+  color: #bce9ff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=skill.css.map */

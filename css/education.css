@@ -1,0 +1,75 @@
+.edu-container {
+  align-items: stretch;
+}
+
+.edu-heading {
+  align-items: stretch;
+  height: 20vh;
+}
+
+.row-edu-styling {
+  height: 100%;
+  border: solid 1px #5c636a;
+  margin-bottom: 1rem;
+}
+
+.edu-content:hover {
+  color: #1a1d20;
+  text-shadow: 0 0 10px #ccc2a4;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.university {
+  margin: 1rem 0 0 0;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-weight: bolder;
+  color: #a6b5cc;
+}
+
+.university-location {
+  margin: 1rem 0 1rem 0;
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.university-location:hover {
+  color: #ffcad4;
+  text-shadow: 0 0 10px #ffcad4;
+}
+
+.university:hover {
+  color: #a5ffd6;
+  text-shadow: 0 0 10px #a6b5cc;
+}
+
+.img-container {
+  height: 30vh;
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+  overflow: hidden;
+}
+
+.university-img {
+  height: 30vh;
+  object-fit: cover;
+  margin: 1rem 0 1rem 0;
+}
+
+.university-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+/*# sourceMappingURL=education.css.map */

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.row-styling {
+  border: solid 1px #5c636a;
+  margin-bottom: 1rem;
+}
+
+.company {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.location {
+  margin: 1rem 0 1rem 0;
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.job-location:hover {
+  color: #ffcad4;
+  text-shadow: 0 0 10px #ffcad4;
+}
+
+.job-title {
+  margin: 1rem 0 0 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #a6b5cc;
+}
+
+.job-title:hover {
+  color: #a5ffd6;
+  text-shadow: 0 0 10px #a6b5cc;
+}
+
+.employment-period:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #ccc2a4;
+}
+
+.jd-list {
+  color: rgb(102, 109, 116);
+  padding-left: 20px;
+  list-style: none;
+}
+
+.jd-list li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.jd-list li:before {
+  content: "Ŷ";
+  color: #ccc2a4;
+  position: absolute;
+  left: 0;
+}
+
+.jd-list li:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #ccc2a4; /* Glow effect color and size */
+}
+
+/*# sourceMappingURL=experience.css.map */
